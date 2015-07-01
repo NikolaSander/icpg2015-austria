@@ -1,0 +1,237 @@
+﻿<!doctype html>
+<!-- to print to pdf, open in Chrome and add ?print-pdf to url -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>ICPG 2015 Austria</title>
+		<meta name="description" content="Internal migration in Austria along the rural-urban continuum and across the life course, 1996–2014">
+		<meta name="author" content="Nikola Sander and Ramon Bauer">
+		
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/reveal.min.css">
+		
+		<!-- Selected Style: Nikola -->
+		<link rel="stylesheet" href="css/theme/nikola.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes '?print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );}
+		</script>
+		<!--[if lt IE 9]><script src="lib/js/html5shiv.js"></script><![endif]-->
+
+		<!-- d3 -->
+		<link href="d3/dist/app-v1.css" rel="stylesheet" media="all">
+		<script src="d3/dist/app-v1.js"></script>
+
+		<!--orange colour: #ff9a15 -->
+			
+	</head>
+	<body>
+	<div class="reveal">
+		<div class="slides">
+		<!-- SLIDES -->		
+		
+			<section data-background="images/top50-2005.png" data-background-size="contain">
+				<div style="background-color: rgba(0, 0, 0, 0.6); width:66%; margin:0 auto; text-align: center">
+				<h4 style="text-align: center; font-size: 155%; font-weight: bold">Internal migration in Austria along the rural-urban continuum and across the life course, 1996–2013</h4>
+				<h5 style="text-align: center;font-size: 120%">Nikola Sander and Ramon Bauer</h5>
+				<h5 style="text-align: center;font-size: 120%">ICPG, Brisbane, July 2015</h5>		
+				</div>
+			</section>
+
+			<section>		
+				<h2>Trends in internal migration</h2>
+				<p>Overall decline in the volume of movement (IMAGE)</p>
+				<p>Re-urbanisation tendencies in Western Europe (e.g. Germany)</p>
+			</section>	
+
+			<section>		
+				<h2>Impediments to the study of (re-)urbanisation</h2>
+				<p>Definition of "urban"</p>
+				<p>Administrative geographies not coinciding with city boundaries</p>
+				<p>Size and complexity of origin-destination flow matrices</p>
+			</section>	
+
+			<section>
+				<h2>Internal migration in Austria</h2>
+				<p>Earlier work mostly limited to mapping net-migration.</p>
+				<p>Little analysis of flows beyond political districts (N 99)</p>
+			</section>	
+
+			<section data-background="images/Gemeinden_netrate_2002_1824.png" data-background-size="contain">
+			<h3>Net-migration for municipalities in 2002 (aged 18-24)</h3>
+			<p>
+			</section>	
+
+			<section data-background="images/Gemeinden_netrate_2013_1824.png" data-background-size="contain">
+			<h3>Urban cores recording higher net gains among 18-24 year olds in 2013</h3>
+			</section>	
+
+			<section>
+				<h2>Our aim</h2>
+				<p>To develop a more comprehensive picture of the patterns and trends in internal migration in Austria by applying different definitions of "urban".</p>
+			</section>	
+
+			<section data-background="images/05_NUTS3.png" data-background-size="contain">
+			<h3>OECD definition (based on NUTS3 typology)</h3>
+			<p>predominantly urban  - intermediate - predominantly rural</p>
+			</section>	
+
+			<section data-background="images/03_Stadtregion_Kern_City.png" data-background-size="contain">
+			<h3>Statistik Austria definition of city regions</h3>
+			<p>urban cores - outer zones - non-urban/rural</p>
+			</section>	
+
+			<section data-background="images/Nuts3-Typologie.png" data-background-size="contain">
+			<h3>OECD / EU typology</h3>
+			</section>	
+
+			<section data-background="images/Stadtregionstypen.png" data-background-size="contain">
+			<h3>Statistik Austria typology</h3>
+			</section>	
+
+			<section>
+				<h2>Data</h2>
+				<p>Spatial resolution: municipalities (N 2,376)</p>
+				<p>Temporal resolution: annual migration events 1996-2013</p>
+				<p>Population at risk by age & 7 age groups (>18, 18-24, 25-29, 30-34, 35-49, 50-64, 65+)</p>
+			</section>	
+
+			<section>		
+				<h2>Austria changed to a register-based system in 2002</h2>
+				<img src="images/total-moved.png"  width="85%">
+			</section>	
+
+			<section>		
+				<h2>Net-migration for all ages suggesting re-urbanisation</h2>
+				<img src="images/line-chart-all.png"  width="85%">
+			</section>	
+
+			<section>		
+				<h2>Growing attractiveness of urban cores for 18-24 year olds</h2>
+				<img src="images/line-chart-all.png"  width="85%">
+			</section>	
+
+			<section>
+			<h3>Reducing complexity through custom geographies</h3>
+			<p>Exploring the impact of geography on the patterns of internal migration along the urban-rural gradient</p>
+
+			add two custom geography maps in small next to each other as visual reminder
+			</section>	
+
+			<section data-background="images/circular_nuts_2002.png" data-background-size="contain">
+			<h3>Flows between NUTS3 regions, 2002</h3>
+			</section>	
+
+			<section data-background="images/circular_nuts_2013.png" data-background-size="contain">
+			<h3>Flows between NUTS3 regions, 2013</h3>
+			</section>	
+
+
+			<!-- Interactive 	-->
+			<section style="margin-top:-110px">		
+			
+			  <nav>
+			    <div id="timeline"></div>
+			  </nav>
+			  <div id="diagram"></div>	
+			  	  <script>
+					(function() {
+					  var datafile = 'd3/cityregions-1824.json';
+					  var aLittleBit = Math.PI / 100000;
+					  d3.json(datafile, function(data) {
+						var now = 2002;
+						var chart = Globalmigration.chart(data, {
+						  element: '#diagram',
+						  now: now,
+						  animationDuration: 1400,
+						  margin: 125,
+						  arcPadding: 0.04,
+						  layout: {
+							threshold: 200,
+							labelThreshold: 200,
+							colors: 'cd3d08 ec8f00 6dae29 683f92 b60275 2058a5 00a592 009d3c 378974 ffca00'.split(' ').map(function(c) { return '#' + c; })
+						  }
+						});
+						Globalmigration.timeline(chart, {
+						  now: now,
+						  element: '#timeline'
+						});
+						chart.draw(now);
+					  });
+					})();
+				  </script>	
+			</section>			
+
+			<section>
+				<h2>Conclusions</h23>
+				<p>Overall increase in volume of movements</p>
+				<p>Growing attractiveness of core cities for 18-24 age group</p>
+				<p>Intra-city movements, esp to largest cities (Vienna and Graz)</p>
+				<p>Families continue to prefer the outer urban zones</p>
+			</section>			
+
+			<section data-background="images/nationalclassificationsAT.png" data-background-size="contain">		
+				<h2>Next steps</h2>
+				<ul>
+				<li>alternative geographies (e.g. different national classifications</li>
+				<li>a closer look at different age groups</li>
+				<li>cross-national comparisons (e.g. Germany)</li>
+				<li>interactive visualisations for public and policy</li>
+				</ul>
+			</section>	
+
+
+			
+		<!-- END SLIDES -->		
+		</div>
+	</div>
+	
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.min.js"></script>
+
+	<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				margin: 0.1,
+				controls: true,
+				progress: false,
+				history: false,
+				center: true,
+				slideNumber: true,
+				keyboard: true,
+				overview: true,
+				touch: true,
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+	</script>
+	</div>
+
+</body>
+</html>
