@@ -15,7 +15,7 @@
 }
 
 .year label {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: normal;
   border: 1px solid #161617;
   color: #fff;
@@ -43,7 +43,7 @@
    SVG styles
    ---------------------------------------------------------*/
 svg {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   vector-effect: non-scaling-stroke;
 }
@@ -61,7 +61,7 @@ svg {
 text {
   cursor: default;
   fill: #FFFFFF;
-  font-size: 15px;
+  font-size: 12px;
   font-family: 'CartoGothic', Arial, sans-serif;
   font-weight: bold;
 }
@@ -93,7 +93,7 @@ text.fade {
 }
 text.region {
   font-family: 'CartoGothic', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: bold;
 }
 .chord {
